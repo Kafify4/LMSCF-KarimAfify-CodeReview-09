@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Mar 14, 2020 at 04:25 PM
+-- Generation Time: Mar 14, 2020 at 04:53 PM
 -- Server version: 10.4.11-MariaDB
 -- PHP Version: 7.4.3
 
@@ -114,7 +114,12 @@ CREATE TABLE `deposit` (
 --
 
 INSERT INTO `deposit` (`deposit_id`, `fk_customer_id`, `fk_package_id`, `date_time`) VALUES
-(1, NULL, NULL, '2020-03-14 14:38:13');
+(1, 1, 1, '2020-03-14 14:38:13'),
+(2, 3, 3, '2020-03-12 14:38:13'),
+(3, 5, 6, '2020-03-14 12:20:13'),
+(4, 4, 4, '2020-02-27 14:38:13'),
+(5, 2, 5, '2020-03-22 07:20:13'),
+(6, 6, 2, '2020-02-25 14:38:13');
 
 -- --------------------------------------------------------
 
